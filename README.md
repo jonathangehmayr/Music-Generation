@@ -1,1 +1,3 @@
 # Music-Generation
+
+This project aims to generate classic piano music using LSTMs and VAEs. The data used is from the [Classical Music MIDI dataset](https://www.kaggle.com/datasets/soumikrakshit/classical-music-midi). The MIDI files are converted to 2d `Numpy` arrays in `midi_conversion.py` and then used to train neural networks with `Tensorflow` framework. The code for training the LSTMs is in `lstm.py`, while for the code for training of the VAE is contained in `vae.py`. The whole project is documented in `AAA_project_report_music_generation.pdf`. NOTE: the model training is not satisfactory yet and needs more experimentation.
